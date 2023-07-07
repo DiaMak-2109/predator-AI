@@ -26,7 +26,6 @@ object_class = net.GetClassDesc(class_idx)
 
 
 
-
 print("")
 print("*______________________________________________________________________________________________________________-*")
 if object_class == "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor":
