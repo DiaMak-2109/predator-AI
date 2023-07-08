@@ -9,7 +9,7 @@ This program utilizes the pretrained GoogleNet model to classify specified objec
 ## Reproducing the Project
 ### Requirements:
 - Jetson Nano
-- USB to MicroUSB cable (to connect to the Nano to your computer)
+- USB to MicroUSB cable (to connect the Nano to your computer)
 - USBC power supply
 - Ethernet cable OR USB Wi-Fi adapter and USB extension cord
 - PuTTY (must be able to SSH in)
