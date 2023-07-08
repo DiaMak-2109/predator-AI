@@ -1,8 +1,10 @@
 # Predator-AI
 Predator AI is a program that identifies Texas-specific wildlife threats in images and notifies the program user. The program’s functions as an alert system to be used with (non-live feed) security/surveillance cameras to ensure the safety of young children and vulnerable pets when not being supervised. The program is able to detect cougars, coyotes,  various subspecies of foxes common in Texas, alligators, and rattlesnakes in provided input images.
 
+
 ## Algorithm
 This program utilizes the pretrained GoogleNet model [(classifying images with imageNet)](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md) to classify specified objects found in the input image, find and store the object’s description, and determine and return whether or not a threat has been found (and identify the type of threat if found) based on the classified object’s description.
+
 
 ## Reproducing the Project
 ### Requirements:
