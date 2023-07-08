@@ -18,7 +18,7 @@ This program utilizes the pretrained GoogleNet model [(imageNet documentation fo
 2. Install git and cmake by running the commands “sudo apt-get update” and “sudo apt-get install git cmake” separately. (You will be prompted to enter your password)
 3. Clone the jetson-inference project by entering “git clone --recursive https://github.com/dusty-nv/jetson-inference”  then enter “cd jetson-inference” followed by “git submodule update --init”
 4. Install the python packages and GoogleNet by running the command “sudo apt-get install libpython3-dev python3-numpy” (this command might take a while to finish running)
-5. Once finished loading, you should be able to see the command line. Navigate to the jetson-inference directory by running the command “cd ~/jetson-inference” If successful, your command line should have changed “/home” into “~/jetson-inference”
+5. Once finished loading, you should be able to see the command line. Navigate to the jetson-inference directory by running the command “cd \~/jetson-inference” If successful, your command line should have changed “/home” into “~/jetson-inference”
 6. Make a build directory by running the command “mkdir build”, then change directories into build by running “cd build”
 7. Run make to build the project by running the command “cmake ../” (this command might take a while to finish running)
 8. The PuTTY screen will flash to the PyTorch Installer; since you don’t need to install PyTorch, press the spacebar to deselect any selected (starred) PyTorch installation options. (this step might take a while to finish running)
