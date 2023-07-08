@@ -17,6 +17,7 @@ This program utilizes the pretrained GoogleNet model to classify specified objec
 
 ### Steps
 (Disclaimer: you may skip steps 1-9 if you have previously installed git, cmake, python3.x, cloned the jetson-inference project, and created a build directory)
+[Here is a video of how to run the program](https://youtu.be/h-qq87Yzq54)
 1. SSH into PuTTY, using the appropriate ip address for your Jetson Nano. If done correctly, you will be prompted to “login as: ”; enter in the username “nvidia”. When prompted for your password, enter it in (keep in mind that the window will not display your password as you type)
 2. Install git and cmake by running the commands “sudo apt-get update” and “sudo apt-get install git cmake” separately. (You will be prompted to enter your password)
 3. Clone the jetson-inference project by entering “git clone --recursive https://github.com/dusty-nv/jetson-inference”  then enter “cd jetson-inference” followed by “git submodule update --init”
