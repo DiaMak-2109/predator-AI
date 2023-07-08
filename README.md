@@ -3,7 +3,7 @@ Predator AI is a program that identifies Texas-specific wildlife threats in imag
 
 
 ## Algorithm
-This program utilizes the pretrained GoogleNet model [(classifying images with imageNet)](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md) to classify specified objects found in the input image, find and store the object’s description, and determine and return whether or not a threat has been found (and identify the type of threat if found) based on the classified object’s description.
+This program utilizes the pretrained GoogleNet model to classify specified objects found in the input image, find and store the object’s description, and determine and return whether or not a threat has been found (and identify the type of threat if found) based on the classified object’s description.
 
 
 ## Reproducing the Project
@@ -46,4 +46,7 @@ This program utilizes the pretrained GoogleNet model [(classifying images with i
       ![run program](https://github.com/DiaMak-2109/predator-AI/assets/72892433/9483a266-67d8-4898-a4c1-4fa5c3d7eeb3)
 
 18. To run the program on other images, repeat steps 15-17
+
+## Model Information
+Googlnet is the default pretrained [image classification/recognition](https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md) network that impliments the [imageNet](https://rawgit.com/dusty-nv/jetson-inference/master/docs/html/python/jetson.inference.html#imageNet) class. It can be used to classify objects within images, videos, and live camera feeds.
 
